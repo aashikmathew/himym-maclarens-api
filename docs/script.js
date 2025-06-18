@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = '  const API_BASE_URL = 'https://himym-maclarens-api.onrender.com';';
 const contentBox = document.getElementById('content');
 const typeIndicator = document.querySelector('.type-indicator');
 const themeAudio = document.getElementById('theme-audio');
