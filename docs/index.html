@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacLaren's Pub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.jpeg">
+</head>
+<body>
+    <div class="pub-background"></div>
+    <div class="center-container">
+        <div class="container glass">
+            <h1 class="title animated-glow">MacLaren's Pub</h1>
+            <div class="subtitle">How I Met Your Mother API</div>
+            <div class="buttons">
+                <button class="btn fun-fact-btn" onclick="getFunFact()">🌂 Fun Facts</button>
+                <button class="btn joke-btn" onclick="getJoke()">👔 HIMYM Jokes</button>
+                <button class="btn quote-btn" onclick="getQuote()">🎸 Show Quotes</button>
+                <button class="btn pickup-btn" onclick="getPickupLine()">😏 Barney's Pickup Lines</button>
+            </div>
+            <div class="content-box">
+                <div class="type-indicator"></div>
+                <p id="content" class="content">Click any button to get started!</p>
+            </div>
+        </div>
+        <div class="music-bar-wrapper">
+            <div class="music-bar">
+                <button id="music-toggle" class="music-btn" onclick="toggleMusic()">
+                    <span id="music-icon">
+                        <svg id="music-note-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 17V5l12-2v12" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="7" cy="19" r="2" fill="#fff"/>
+                            <circle cx="17" cy="17" r="2" fill="#fff"/>
+                        </svg>
+                    </span>
+                </button>
+                <div class="equalizer paused" id="equalizer">
+                    <div class="bar bar1"></div>
+                    <div class="bar bar2"></div>
+                    <div class="bar bar3"></div>
+                    <div class="bar bar4"></div>
+                </div>
+                <span class="music-title">Click to Reveal the Secret Pub Anthem!</span>
+                <audio id="theme-audio" src="himym-theme.mp3"></audio>
+            </div>
+        </div>
+    </div>
+    <div id="legen-toast" class="legen-toast">Legen—<span class="wait">wait for it</span>—dary!</div>
+    <script src="script.js"></script>
+</body>
+</html> 
