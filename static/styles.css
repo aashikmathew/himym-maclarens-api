@@ -517,4 +517,15 @@ body {
     .music-title {
         font-size: 1rem;
     }
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.2rem;
+    opacity: 0.85;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 6px #0008;
 } 
