@@ -351,6 +351,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 2.2rem;
+    margin-bottom: 2.8rem;
 }
 .music-bar {
     width: 100%;
@@ -517,4 +518,23 @@ body {
     .music-title {
         font-size: 1rem;
     }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95rem;
+    margin: 0;
+    padding: 0.5rem 0 0.7rem 0;
+    opacity: 0.95;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 6px #000a;
+    z-index: 2000;
+    background: none;
+    pointer-events: none;
 } 
