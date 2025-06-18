@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://YOUR-RENDER-URL.onrender.com';
 const contentBox = document.getElementById('content');
 const typeIndicator = document.querySelector('.type-indicator');
 const themeAudio = document.getElementById('theme-audio');
