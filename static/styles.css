@@ -520,12 +520,20 @@ body {
 }
 
 .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
     text-align: center;
     color: #fff;
-    font-size: 1rem;
-    margin-top: 2.5rem;
-    margin-bottom: 1.2rem;
-    opacity: 0.85;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95rem;
+    margin: 0;
+    padding: 0.5rem 0 0.7rem 0;
+    opacity: 0.95;
     letter-spacing: 0.5px;
-    text-shadow: 0 1px 6px #0008;
+    text-shadow: 0 1px 6px #000a;
+    z-index: 2000;
+    background: none;
+    pointer-events: none;
 } 
