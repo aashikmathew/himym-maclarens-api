@@ -14,7 +14,10 @@ app = FastAPI(
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://aashikmathew.github.io",
+        "https://aashikmathew.github.io/himym-maclarens-api"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
